@@ -57,7 +57,7 @@ else ifeq ($(CHAPTER), 3)
 	CH_TESTS := $(CH3_TESTS)
 else ifeq ($(CHAPTER), 4)
 	CH_TESTS := $(CH4_TESTS)
-else ifeq ($(CHAPTER), 4_3)
+else ifeq ($(CHAPTER), 4_test)
 	CH_TESTS := $(CH4_BASE_TESTS) ch3b_sleep ch3_taskinfo
 else ifeq ($(CHAPTER), 4_only)
 	CH_TESTS := ch4_ ch4b_
