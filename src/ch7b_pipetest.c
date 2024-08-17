@@ -36,6 +36,7 @@ int main()
 		printf("[parent] write over\n");
 		// close write end
 		close(pipe_fd[1]);
+		printf("[parent] close write end\n");
 		int exit_code = 0;
 		wait(&exit_code);
 		assert_eq(exit_code, 0);
